@@ -1,6 +1,6 @@
 
 services:
-  webapp:
+  frontend:
     build:
       context: ./frontend
     ports:
@@ -10,7 +10,7 @@ services:
     environment:
       - "CI:'true'"
     restart: always
-  api:
+  backend:
     build:
       context: ./backend
     ports:
