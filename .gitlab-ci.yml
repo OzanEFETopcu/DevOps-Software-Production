@@ -1,6 +1,6 @@
 
 variables:
-  REMOTE_HOST: deploy@YOUR_SERVER_HOSTNAME_HERE
+  REMOTE_HOST: deploy@22wsp_3004_project_team_10
   API_IMAGE: ${CI_REGISTRY_IMAGE}/api
   WEBAPP_IMAGE: ${CI_REGISTRY_IMAGE}/webapp
 stages:
