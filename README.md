@@ -7,6 +7,10 @@ Server Address: 172.16.4.101
 ## Team
 Team Members: Anish Natu, Ozan Topcu
 
+## Access to final prodcution
+Frontend: http://172.16.4.101:8080/
+Backend: http://172.16.4.101:4040/
+
 ## Instructions to run locally
 The application can be run by using the "docker-compose up -d" command inside the repository. After running the code user needs to get in "http://localhost:3001" and "http://localhost:5000" to access frontend and backend respectively.
 
