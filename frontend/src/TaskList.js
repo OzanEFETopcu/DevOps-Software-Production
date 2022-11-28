@@ -7,7 +7,7 @@ const TaskList = () => {
   const [tasks, setTasks] = useState([]);
   useEffect(() => {
     const fetchTasks = async () => {
-        const response = await fetch(`http://localhost:4040/api/v1/tasks`)
+        const response = await fetch(`http://localhost:5000/api/v1/tasks`)
         const data = await response.json();
         console.log(data);
         setTasks(data);
