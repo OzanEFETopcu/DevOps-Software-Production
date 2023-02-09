@@ -8,7 +8,7 @@ I always wanted to learn the steps of a professional software development and ma
 ## Team
 Team Members: Ozan Topcu, Anish Natu
 
-## Access to final prodcution
+## Access to final production
 Frontend: http://172.16.4.101:8080/
 Backend: http://172.16.4.101:4040/
 
